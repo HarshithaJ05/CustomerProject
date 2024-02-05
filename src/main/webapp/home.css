@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Pagination styling */
+.pagination {
+    margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Green button */
+.button-green {
+    background-color: #4CAF50; /* Change this color code to your desired green color */
+}
+
+/* Blue button */
+.button-blue {
+    background-color: #0074D9; /* Change this color code to your desired blue color */
+    color: #333; /* Text color */
+}
+
+/* Orange button for Edit */
+.button-orange {
+    background-color: #FFA500; /* Change this color code to your desired orange color */
+}
+
+/* Red button for Delete */
+.button-red {
+    background-color: #FF4136; /* Change this color code to your desired red color */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2; /* Change this color code to your desired background color */
+}
+
+/* Add more button colors as needed */
+
+.button:hover {
+    background-color: #45a049;
+}
