@@ -56,7 +56,7 @@ public class CustomerList2 {
 				JSONArray jsonArray = new JSONArray(response.toString());
 
 				// Print user details
-				System.out.println("Customer details:");
+//				System.out.println("Customer details:");
 				for (int i = 0; i < jsonArray.length(); i++) {
 					JSONObject jsonObject = jsonArray.getJSONObject(i);
 					System.out.println("uuid:" + jsonObject.getString("uuid"));

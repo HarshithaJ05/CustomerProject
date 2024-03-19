@@ -54,6 +54,8 @@ public class J2EEHttpPost {
 		}
 
 		// Get the response from the server
+		
+		
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
 			StringBuilder response = new StringBuilder();
 			String line;
