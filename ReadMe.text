@@ -1,9 +1,7 @@
 Project Name: Customer Management System
 
 Description:
-The Customer Management System is a web application built to effectively manage customer information. It offers CRUD operations, search functionality, synchronization
-with a remote API, user authentication, and pagination. The system is developed using Java, JSP, Servlets, HTML, and CSS technologies.The project aims to provide a comprehensive 
-solution for storing, retrieving, and manipulating customer data efficiently.
+The Customer Management System is a web application built to effectively manage customer information. It offers CRUD operations, search functionality, synchronizationwith a remote API, user authentication, and pagination. The system is developed using Java, JSP, Servlets, HTML, and CSS technologies.The project aims to provide a comprehensive solution for storing, retrieving, and manipulating customer data efficiently.
 
 Key Features:
 .User Authentication: Users must log in using their credentials before accessing the system. This ensures that only authorized users can interact with the customer data.
